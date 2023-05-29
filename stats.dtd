@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT stats (popular,platforms,ips)>
+<!ATTLIST stats
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT popular EMPTY>
+<!ATTLIST popular
+  xmlns CDATA #FIXED ''
+  ip CDATA #REQUIRED>
+
+<!ELEMENT platforms (desktop,mobile)>
+<!ATTLIST platforms
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT ips (ip)+>
+<!ATTLIST ips
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT desktop (platform)+>
+<!ATTLIST desktop
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT mobile (platform)+>
+<!ATTLIST mobile
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT ip EMPTY>
+<!ATTLIST ip
+  xmlns CDATA #FIXED ''
+  addr CDATA #REQUIRED
+  frequency CDATA #REQUIRED>
+
+<!ELEMENT platform EMPTY>
+<!ATTLIST platform
+  xmlns CDATA #FIXED ''
+  count CDATA #REQUIRED
+  type CDATA #REQUIRED>

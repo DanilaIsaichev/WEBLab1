@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE таблица
+PUBLIC "-//B//DTD COMPETENCY 1.0 Strict//RU"
+"http://kodaktor.ru/j/dtd_f4681">
+<myportfolio>
+    <competencies>
+        <competency field="HTML" value="middle"/>
+        <compenency field="CSS" value="middle"/>
+        <competency field="JS" value="middle"/>
+        <compenency field="PHP" value="good"/>
+        <compenency field="SSL" value="worse"/>
+    </competencies>
+</myportfolio>

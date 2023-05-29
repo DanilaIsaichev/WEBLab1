@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!ELEMENT myportfilio (competencies)>
+<!ELEMENT competencies (competency)*>
+<!ATTLIST competency
+    field CDATA #REQUIRED
+    value CDATA #REQUIRED
+>
